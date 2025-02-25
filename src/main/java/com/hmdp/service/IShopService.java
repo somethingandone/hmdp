@@ -14,7 +14,8 @@ import com.hmdp.entity.Shop;
  */
 public interface IShopService extends IService<Shop> {
 
-    public Result queryById(Long id);
+    Result queryById(Long id);
 
 
+    Result update(Shop shop);
 }
